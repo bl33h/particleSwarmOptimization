@@ -24,7 +24,7 @@ particlesNumber = 40  # number of particles
 iterationsQ = 100  # number of iterations
 w = 0.5  # inertia weight
 c1 = 1.5  # personal acceleration coefficient
-c2 = 1.5  # global acceleration coefficient
+c2 = 2  # global acceleration coefficient
 bounds = [(-10, 10), (-10, 10)]  # search space bounds for (x, y)
 
 # initialize particle positions and velocities
